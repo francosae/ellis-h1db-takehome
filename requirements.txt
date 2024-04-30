@@ -3,6 +3,5 @@ flask_cors
 elasticsearch
 pandas
 nltk
-dotenv
 python-dotenv 
 gunicorn

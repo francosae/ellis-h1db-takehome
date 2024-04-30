@@ -20,7 +20,7 @@ interface CaseDetails {
 
 async function fetchCaseDetails(caseId: string): Promise<CaseDetails> {
   const response = await fetch(
-    `http://localhost:5000/case?case_number=${caseId}`,
+    `https://ellis-h1db-takehome.onrender.com/case?case_number=${caseId}`,
   );
   if (!response.ok) {
     throw new Error("Network response was not ok");

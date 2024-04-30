@@ -38,7 +38,7 @@ export default function Home() {
     setIsLoading(true);
     try {
       const response = await fetch(
-        `http://localhost:5000/search?query=${query}&page=${pageNum}&size=25`,
+        `https://ellis-h1db-takehome.onrender.com/search?query=${query}&page=${pageNum}&size=25`,
       );
       if (!response.ok) {
         throw new Error("err");

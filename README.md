@@ -1,3 +1,4 @@
+![image](https://github.com/francosae/ellis-h1db-takehome/assets/69439997/fec9b8f3-c5a5-4366-8cbe-006dd3982b4c)
 
 ## Ellis H1DB Assessment
 

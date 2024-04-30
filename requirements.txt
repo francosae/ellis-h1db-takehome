@@ -4,4 +4,5 @@ elasticsearch
 pandas
 nltk
 dotenv
-python-dotenv
+python-dotenv 
+gunicorn

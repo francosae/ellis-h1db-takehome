@@ -86,11 +86,8 @@ export default async function Case({ params }: { params: { caseId: string } }) {
                 Salary Range
               </dt>
               <dd className="text-md mt-1 text-gray-900">
-                {caseDetails.WAGE_RATE_OF_PAY_TO != null &&
-                caseDetails.WAGE_RATE_OF_PAY_TO !== ""
-                  ? caseDetails.WAGE_RATE_OF_PAY_TO
-                  : "null"}{" "}
-                - {caseDetails.WAGE_RATE_OF_PAY_FROM}
+                {caseDetails.WAGE_RATE_OF_PAY_TO ?? "null"} -{" "}
+                {caseDetails.WAGE_RATE_OF_PAY_FROM}
               </dd>
             </div>
             <div className="px-4 py-5 text-center sm:px-6">

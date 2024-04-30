@@ -4,3 +4,4 @@ elasticsearch
 pandas
 nltk
 dotenv
+python-dotenv
